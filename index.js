@@ -35,7 +35,7 @@ mongoose.connect(process.env.MONGO_URL, {
 });
 
 // Respond on the localhost
-app.get("/test", (req, res) => {
+app.get("/", (req, res) => {
   res.json("test ok");
 });
 
